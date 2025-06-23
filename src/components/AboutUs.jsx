@@ -2,11 +2,11 @@ const AboutUs = () => {
   return (
     <main className="relative overflow-hidden bg-gradient-to-br from-[#f8faff] via-white to-blue-50 min-h-screen py-20 px-6 font-sans">
       {/* Background Effects */}
-      <div className="absolute w-[400px] h-[400px] bg-gradient-to-br from-purple-300 to-blue-300 rounded-full blur-3xl opacity-20 right-[-100px] top-[-100px]" />
+      <div className="absolute w-[400px] h-[400px] bg-gradient-to-br from-teal-300 to-blue-300 rounded-full blur-3xl opacity-20 right-[-100px] top-[-100px]" />
       <div className="absolute w-[300px] h-[300px] bg-gradient-to-tr from-yellow-200 to-pink-300 rounded-full blur-2xl opacity-30 left-[-100px] bottom-[-100px]" />
 
       <div className="relative z-10 max-w-6xl mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-purple-600">
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-teal-600">
           About <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500">Dexbit Technologies</span>
         </h1>
         <p className="text-lg text-gray-800 max-w-3xl mx-auto mb-16 leading-relaxed tracking-wide">
@@ -18,7 +18,7 @@ const AboutUs = () => {
       <div className="relative z-10 max-w-7xl mx-auto grid md:grid-cols-3 gap-8 px-6">
         {/* Mission */}
         <div className="bg-white/20 backdrop-blur-2xl border border-white/30 rounded-3xl p-6 shadow-2xl transition hover:shadow-blue-300/40">
-          <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-3">
+          <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600 mb-3">
             🚀 Our Mission
           </h3>
           <p className="text-gray-800 text-base leading-relaxed tracking-wide">
@@ -28,7 +28,7 @@ const AboutUs = () => {
 
         {/* Vision */}
         <div className="bg-white/20 backdrop-blur-2xl border border-white/30 rounded-3xl p-6 shadow-2xl transition hover:shadow-blue-300/40">
-          <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-3">
+          <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600 mb-3">
             🌐 Our Vision
           </h3>
           <p className="text-gray-800 text-base leading-relaxed tracking-wide">
@@ -38,7 +38,7 @@ const AboutUs = () => {
 
         {/* Values */}
         <div className="bg-white/20 backdrop-blur-2xl border border-white/30 rounded-3xl p-6 shadow-2xl transition hover:shadow-blue-300/40">
-          <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-3">
+          <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600 mb-3">
             💡 Our Values
           </h3>
           <ul className="list-disc text-gray-800 pl-5 space-y-2 text-base leading-relaxed">

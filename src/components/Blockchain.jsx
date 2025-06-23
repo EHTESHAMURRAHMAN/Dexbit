@@ -1,6 +1,6 @@
 const Blockchain = () => {
   return (
-    <section className="max-w-5xl mx-auto px-6 py-16 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 rounded-xl shadow-lg">
+    <section className="max-w-5xl mx-auto px-6 py-16 bg-gradient-to-r from-indigo-50 via-teal-50 to-pink-50 rounded-xl shadow-lg">
       <div className="flex flex-col md:flex-row items-center gap-10">
         <div className="md:w-1/2">
           <h2 className="text-4xl font-bold text-indigo-700 mb-4">Blockchain Solutions</h2>

@@ -96,9 +96,8 @@ const ContactUs = () => {
 
           {status && (
             <p
-              className={`text-center font-semibold ${
-                status.toLowerCase().includes("thank") ? "text-green-600" : "text-red-600"
-              }`}
+              className={`text-center font-semibold ${status.toLowerCase().includes("thank") ? "text-green-600" : "text-red-600"
+                }`}
             >
               {status}
             </p>
@@ -107,7 +106,7 @@ const ContactUs = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold py-4 rounded-full shadow-lg hover:scale-105 transition transform"
+            className="w-full bg-gradient-to-r from-blue-600 to-teal-600 text-white font-bold py-4 rounded-full shadow-lg hover:scale-105 transition transform"
           >
             {loading ? "Sending..." : "Send Message"}
           </button>

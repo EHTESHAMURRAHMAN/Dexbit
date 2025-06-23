@@ -1,4 +1,4 @@
- 
+
 
 const reviews = [
   {
@@ -20,7 +20,7 @@ const reviews = [
 
 const CustomerReview = () => {
   return (
-    <section className="bg-gradient-to-br from-purple-100 via-blue-100 to-pink-100 py-20 px-6 relative overflow-hidden">
+    <section className="bg-gradient-to-br from-teal-100 via-blue-100 to-pink-100 py-20 px-6 relative overflow-hidden">
       <div className="max-w-7xl mx-auto text-center relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-12">
           What Our <span className="text-blue-600">Clients Say</span>
@@ -34,7 +34,7 @@ const CustomerReview = () => {
             >
               <div className="text-3xl text-yellow-400 mb-2">
                 {"★".repeat(Math.floor(review.rating))}
-                {review.rating % 1 !== 0 ? "½" : "" }
+                {review.rating % 1 !== 0 ? "½" : ""}
               </div>
               <p className="text-gray-700 mb-4 italic">"{review.feedback}"</p>
               <h4 className="text-lg font-semibold text-gray-900">- {review.name}</h4>
@@ -46,7 +46,7 @@ const CustomerReview = () => {
           href="https://www.upwork.com/freelancers/~01abe26530a3ff7fd6"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-12 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:scale-105 transition"
+          className="inline-block mt-12 bg-gradient-to-r from-blue-500 to-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:scale-105 transition"
         >
           View Profile on Upwork
         </a>

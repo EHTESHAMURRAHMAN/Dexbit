@@ -1,6 +1,6 @@
 const WebDevelopment = () => {
   return (
-    <section className="max-w-5xl mx-auto px-6 py-16 bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 rounded-xl shadow-lg">
+    <section className="max-w-5xl mx-auto px-6 py-16 bg-gradient-to-r from-blue-50 via-indigo-50 to-teal-50 rounded-xl shadow-lg">
       <div className="flex flex-col md:flex-row-reverse items-center gap-10">
         <div className="md:w-1/2">
           <h2 className="text-4xl font-bold text-blue-700 mb-4">Web Development Services</h2>

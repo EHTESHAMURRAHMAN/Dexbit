@@ -50,7 +50,7 @@ const additionalServices = [
 ];
 
 const colorPalette = [
-  "from-blue-400 to-purple-500",
+  "from-blue-400 to-teal-500",
   "from-green-400 to-teal-500",
   "from-pink-400 to-red-500",
   "from-yellow-300 to-orange-400",
@@ -58,7 +58,7 @@ const colorPalette = [
   "from-rose-400 to-pink-500",
   "from-cyan-400 to-blue-500",
   "from-lime-300 to-green-400",
-  "from-fuchsia-400 to-purple-500",
+  "from-fuchsia-400 to-teal-500",
 ];
 
 const Services = () => {
@@ -98,11 +98,11 @@ const Services = () => {
 
   return (
     <main className="relative overflow-hidden bg-gradient-to-br from-[#f8faff] via-white to-blue-50 min-h-screen py-20 px-6 font-sans">
-      <div className="absolute w-[500px] h-[500px] bg-gradient-to-br from-purple-400 to-blue-400 rounded-full blur-3xl opacity-20 right-[-200px] top-[-100px]" />
+      <div className="absolute w-[500px] h-[500px] bg-gradient-to-br from-teal-400 to-blue-400 rounded-full blur-3xl opacity-20 right-[-200px] top-[-100px]" />
       <div className="absolute w-[300px] h-[300px] bg-gradient-to-tr from-yellow-300 to-pink-300 rounded-full blur-2xl opacity-30 left-[-100px] bottom-[-100px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-14 leading-snug tracking-tight">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600 mb-14 leading-snug tracking-tight">
           Explore Our Creative Core Services
         </h1>
 
@@ -116,7 +116,7 @@ const Services = () => {
               <div className="w-14 h-14 flex items-center justify-center bg-white rounded-full mb-5 shadow-md group-hover:scale-110 transition">
                 <img src={service.icon} alt={service.title} className="w-8 h-8 object-contain" />
               </div>
-              <h2 className="text-xl sm:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-blue-700 mb-3">
+              <h2 className="text-xl sm:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-teal-800 to-blue-700 mb-3">
                 {service.title}
               </h2>
               <p className="text-gray-800 text-sm sm:text-base leading-relaxed tracking-wide">

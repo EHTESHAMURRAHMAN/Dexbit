@@ -24,7 +24,7 @@ const Header = () => {
             alt="Dexbit Technologies Logo"
             className="h-20 w-20 object-contain transition-transform duration-300 group-hover:scale-105"
           />
-          <span className="text-2xl font-extrabold bg-gradient-to-r from-red-500 via-yellow-400 to-red-500 text-transparent bg-clip-text tracking-tight">
+          <span className="text-2xl font-extrabold bg-gradient-to-r from-teal-500 via-blue-400 to-red-500 text-transparent bg-clip-text tracking-tight">
             Dexbit <span className="text-gray-800">Technologies</span>
           </span>
         </Link>

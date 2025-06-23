@@ -23,8 +23,8 @@ const HomePage = () => {
   return (
     <main className="bg-white min-h-screen text-gray-900 relative overflow-hidden font-sans">
       {/* Gradient Backgrounds */}
-      <div className="absolute w-[300px] h-[300px] rounded-full bg-gradient-to-br from-pink-500 via-yellow-400 to-blue-500 right-[-120px] top-[30%] opacity-80 z-0 hidden sm:block"></div>
-      <div className="absolute w-[200px] h-[100px] bg-gradient-to-br from-pink-500 via-yellow-400 to-blue-500 rounded-t-full right-[-60px] top-[60%] opacity-80 z-0 hidden sm:block"></div>
+      <div className="absolute w-[300px] h-[300px] rounded-full bg-gradient-to-br from-teal-500 via-blue-400 to-blue-500 right-[-120px] top-[30%] opacity-80 z-0 hidden sm:block"></div>
+      <div className="absolute w-[200px] h-[100px] bg-gradient-to-br from-teal-500 via-blue-400 to-blue-500 rounded-t-full right-[-60px] top-[60%] opacity-80 z-0 hidden sm:block"></div>
       <div className="absolute bottom-0 right-0 w-[250px] h-[200px] z-0 hidden sm:block">
         {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
           <path
@@ -47,7 +47,7 @@ const HomePage = () => {
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 leading-tight text-gray-900 relative z-10 max-w-3xl">
           Build the Future with{" "}
-          <span className="bg-gradient-to-r from-red-500 via-yellow-400 to-red-500 text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-teal-500 via-blue-400 to-teal-500 text-transparent bg-clip-text">
             Blockchain & IT Solutions
           </span>
         </h1>
